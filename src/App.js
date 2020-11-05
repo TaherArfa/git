@@ -3,7 +3,6 @@ import "./App.css";
 import image from './profil.png'
 import Mehdi from "./profile/mehdi";
 import ProfilComponent from './profile/profilComponent'
-import Taher from "./profile/Taher";
 
 const styleimg = {
   width: "300px",
@@ -27,13 +26,7 @@ function App() {
   };
   console.log(ProfilComponent.defaultProps)
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      <Taher />
-      </header>
-      <Mehdi/>
-    </div>
+  <h2>Bonjour</h2>
   );
 }
 
