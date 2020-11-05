@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import image from './profil.png'
+import Mehdi from "./profile/mehdi";
 import ProfilComponent from './profile/profilComponent'
 
 const styleimg = {
@@ -38,6 +39,7 @@ function App() {
           </img>
       </ProfilComponent>
       </header>
+      <Mehdi/>
     </div>
   );
 }
