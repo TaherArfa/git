@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import image from './profil.png'
 import ProfilComponent from './profile/profilComponent'
+import Taher from "./profile/Taher";
 
 const styleimg = {
   width: "300px",
@@ -27,16 +28,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <ProfilComponent x={ProfilComponent.defaultProps} y="E" handleClick={handlData}>
-
-        <h2>Profil Pic</h2>
-        <img width="200px" height="240px"
-        style={styleimg}
-          // style={styleimg}
-          src={ProfilComponent.defaultProps.img}
-          alt="name">
-          </img>
-      </ProfilComponent>
+      
+      <Taher />
       </header>
     </div>
   );
