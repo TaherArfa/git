@@ -26,6 +26,7 @@ function App() {
   };
   console.log(ProfilComponent.defaultProps)
   return (
+
   <h2>Bonjour</h2>
   );
 }
