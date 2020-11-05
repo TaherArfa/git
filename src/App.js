@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import image from './profil.png'
+import Mehdi from "./profile/mehdi";
 import ProfilComponent from './profile/profilComponent'
-import Taher from "./profile/Taher";
 
 const styleimg = {
   width: "300px",
@@ -26,7 +26,8 @@ function App() {
   };
   console.log(ProfilComponent.defaultProps)
   return (
-   <p>Modified</p>
+
+  <h2>Bonjour</h2>
   );
 }
 
