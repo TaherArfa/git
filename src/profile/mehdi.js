@@ -1,12 +1,12 @@
 import React from 'react'
 
-function mehdi() {
+function Mehdi() {
     return (
         <div>
-           <h1>mehdi</h1> 
+           <h1>Mehdi</h1> 
         </div>
     )
 }
 
-export default mehdi
+export default Mehdi
 
