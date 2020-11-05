@@ -26,12 +26,7 @@ function App() {
   };
   console.log(ProfilComponent.defaultProps)
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      <Taher />
-      </header>
-    </div>
+   <p>Modified</p>
   );
 }
 
